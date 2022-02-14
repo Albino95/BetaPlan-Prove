@@ -1,0 +1,164 @@
+/* Font Format  */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+
+/* Nav Design */
+
+#main_bar {
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    background-color: #9fc4f9;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+#main_bar h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.links {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+}
+
+
+/* Header Desing */
+
+header {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+header h2 {
+    font-size: 1.3rem;
+}
+
+#unit_select {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+#unit {
+    font-size: 1.3rem;
+    margin-left: 15px;
+}
+
+
+/* Main Body Desing */
+
+.main_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+
+
+/* Box Design */
+
+.day {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+}
+
+.day>h2 {
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.day>img {
+    border-radius: 50%;
+    width: 70%;
+    margin-bottom: 80px;
+}
+
+.day>p {
+    font-size: 1.5rem;
+    margin-bottom: 80px;
+}
+
+.temp {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.temp>p {
+    font-size: 2rem;
+}
+
+#max {
+    color: red;
+}
+
+#min {
+    color: blue;
+}
+
+
+/* Cookie */
+
+.cookie {
+    align-self: center;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    width: 48%;
+    border: 3px solid black;
+    background-color: lightgray;
+}
+
+.cookie>img {
+    width: 20%;
+}
+
+.cookie_text {
+    margin-left: 20px;
+}
+
+.cookie_text>h2 {
+    font-size: 2rem;
+}
+
+.cookie_text>p {
+    font-size: 1.3rem;
+}
+
+.cookie>button {
+    width: 15%;
+    height: 120%;
+    align-self: center;
+    font-size: 1.3rem;
+    margin-right: 20px;
+    box-shadow: 2px 2px 2px gray;
+    background-color: #9fc4f9;
+    margin-left: 20px;
+}
